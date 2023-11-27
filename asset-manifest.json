@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/saikumarponnaganti99.github.io/moneymanager/static/css/main.7facb44b.css",
+    "main.js": "/saikumarponnaganti99.github.io/moneymanager/static/js/main.36f8d244.js",
+    "static/js/787.1d7315c8.chunk.js": "/saikumarponnaganti99.github.io/moneymanager/static/js/787.1d7315c8.chunk.js",
+    "index.html": "/saikumarponnaganti99.github.io/moneymanager/index.html",
+    "main.7facb44b.css.map": "/saikumarponnaganti99.github.io/moneymanager/static/css/main.7facb44b.css.map",
+    "main.36f8d244.js.map": "/saikumarponnaganti99.github.io/moneymanager/static/js/main.36f8d244.js.map",
+    "787.1d7315c8.chunk.js.map": "/saikumarponnaganti99.github.io/moneymanager/static/js/787.1d7315c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7facb44b.css",
+    "static/js/main.36f8d244.js"
+  ]
+}

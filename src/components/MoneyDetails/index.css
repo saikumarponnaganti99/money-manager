@@ -1,0 +1,75 @@
+/* Write your CSS here */
+.moneyDetailsContainer {
+    margin-top: 20px;
+  }
+  .balanceContainer {
+    display: flex;
+    align-items: center;
+  
+    border-radius: 9px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-bottom: 13px;
+  }
+  .img-and-amount-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+  }
+  .moneyDetailsImg {
+    width: 60px;
+    margin-left: 30px;
+  }
+  .amountContainer {
+    margin-right: 5px;
+  }
+  .card-name {
+    font-size: 12px;
+    color: #475569;
+    margin-bottom: 6px;
+  }
+  .card-amount {
+    font-size: 17px;
+    color: #475569;
+    font-weight: 500;
+    margin-top: 3px;
+  }
+  .balance {
+    background-color: #ecfccb;
+    border: 1px solid #84cc16;
+  }
+  .income {
+    background-color: #cffafe;
+    border: 1px solid #06b6d4;
+  }
+  .expenses {
+    background-color: #ede9fe;
+    border: 1px solid #7c3aed;
+  }
+  
+  @media screen and (min-width: 768px) {
+    /* Write your CSS here */
+    .moneyDetailsContainer {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .balanceContainer {
+      display: flex;
+      align-items: center;
+      width: 30%;
+      border-radius: 9px;
+      padding-top: 13px;
+      padding-bottom: 13px;
+      margin-bottom: 13px;
+    }
+    .img-and-amount-container {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 90%;
+    }
+  }
+  

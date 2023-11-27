@@ -1,0 +1,158 @@
+/* Write your CSS here */
+*{
+  font-family: 'Roboto Slab', serif;
+}
+.appContainer {
+    min-height: 100vh;
+    padding: 20px;
+    padding-top: 40px;
+  }
+  .nameContainer {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+    background-size: cover;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    height: 150px;
+  }
+  .nameContainer h1 {
+    font-size: 21px;
+    color: #475569;
+  }
+  .nameContainer p {
+    font-size: 14px;
+    color: #475569;
+    margin: 0;
+  }
+  .nameContainer span {
+    color: #0b69ff;
+    font-weight: 500;
+  }
+  
+  .addTransactionAndHistoryContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 35px;
+  }
+  .AddTransactionContainer {
+    padding: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px solid #d7dfe9;
+    border-radius: 12px;
+    padding-bottom: 35px;
+    margin-bottom: 30px;
+  }
+  .AddTransactionContainer p {
+    color: #6687bd;
+    font-weight: 500;
+    margin-bottom: 25px;
+  }
+  .label {
+    color: #334155;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .input {
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 90%;
+    height: 30px;
+    font-size: 13px;
+    border: 2px solid #d7dfe9;
+    outline: none;
+  }
+  .addButton {
+    width: 60px;
+    height: 30px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #0b69ff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .historyContainer {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px solid #d7dfe9;
+    border-radius: 12px;
+    padding-bottom: 35px;
+    margin-bottom: 30px;
+  }
+  .historyContainer p {
+    color: #1e293b;
+    font-weight: 600;
+    margin: 0px;
+  }
+  
+  .historiesContainer {
+    display: flex;
+    align-items: center;
+    border: 1px solid #cbd5e1;
+    height: 40px;
+    font-size: 13px;
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 10px;
+  }
+  .historiesContainer p {
+    width: 30%;
+    font-size: 12px;
+  }
+  .historiesContainerBtm{
+      width: 100%;
+      padding-left: 0;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .appContainer {
+      height: 100vh;
+      padding: 10px;
+    }
+    .nameContainer {
+      padding-left: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      border-radius: 9px;
+      height: 150px;
+    }
+    .nameContainer h1 {
+      font-size: 23px;
+    }
+    .nameContainer p {
+      font-size: 15px;
+    }
+  
+    .addTransactionAndHistoryContainer {
+      flex-direction: row;
+      margin-top: 10px;
+    }
+    .AddTransactionContainer {
+      margin-right: 10px;
+      width: 50%;
+    }
+  
+    .addButton {
+      width: 70px;
+      height: 40px;
+      font-size: 17px;
+    }
+  
+    .historyContainer {
+      margin-left: 10px;
+      width: 50%;
+    }
+  }
+  

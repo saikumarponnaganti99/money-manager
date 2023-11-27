@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.eachHistory{
+    display: flex;
+    align-items: center;
+    border: 1px solid  #cbd5e1;
+    height: 40px;
+    font-size: 13px;
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 10px;
+    }
+    .eachHistory p{
+    width: 30%;
+    font-size: 12px;
+    }
+    .deleteButton{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .imgDelete{
+        width: 18px;
+        margin-right: 5px;
+    }
